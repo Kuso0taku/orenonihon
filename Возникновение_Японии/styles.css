@@ -1,0 +1,217 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+:focus {
+outline: 0;
+}
+ins {
+text-decoration: none;
+}
+del {
+text-decoration: line-through;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+
+body {
+	background: linear-gradient(to bottom,transparent, #3E4B8F), url(img/background_statya.jpg) no-repeat, #404D93;
+	/*background: url(img/background_statya.jpg) #3E4B8F no-repeat;*/
+	background-size: contain;
+	font-weight: 98%;
+}
+
+nav {
+	background: #404D93;
+	opacity: 0.7;
+	color: #BC79AA;
+	height: 70px;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 30px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0px 3px #BC79AA;
+}
+nav:hover {
+	opacity: 1;
+}
+
+nav a {
+	color: #BC79AA;
+	text-decoration: none;
+}
+
+.tab {
+	padding: 16px;
+	width: 50%;
+	margin-top: 27%;
+	margin-left: 25%;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	height: 1000px;
+	background-color: white; 
+	font-family: 'Source Code Pro', monospace;
+	text-indent: 10px;
+	font-size: 20px;
+	box-shadow: black 3px 5px 3px;
+}
+
+td{
+	padding: 8px;
+}
+
+h1{
+	font-size: 30px;
+	text-align: center;
+}
+
+h2,h3{
+	text-align: center;
+}
+
+.hram {
+	padding-top: 8px;
+	width: 98%;
+	height: 98%;
+	padding-bottom: 8px;
+}
+
+/*
+.im {
+	width:350px;
+	margin-left: 1%;
+	padding: 0px;
+	float: left;
+	padding-right: 8px;
+}
+*/
+
+.f {
+	border-color: black;
+}
+
+.r {
+	border-color: rgb(0,0,100);
+	width: 15%;
+	margin-left: 0px;
+}
+
+p img {
+	margin-top: 8px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.n{
+	width: 150px;
+}
+
+.n1{
+	width: 200px;
+}
+
+.n2 {
+	width: 675px;
+}
+
+.n3 {
+	width: 175px;
+}
+
+.n4 {
+	width: 230px;
+}
+
+.n5 {
+	width: 500px;
+}
+
+.n6 {
+	width: 500px;
+}
+
+.n7{
+	width: 50px;
+}
+
+.t {
+	line-height: 25px;
+}
+
+.h {
+	margin-bottom: 25px;
+}
+
+footer {
+	background: #2A3362;
+	margin-top: 5%;
+	padding-bottom: 5px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 0px;
+}
+
+footer button{
+	background: transparent;
+	border: 0px;
+	padding: 0px;
+	margin-left: 1%;
+}
+
+footer h6, p{
+	margin-left: 0.5%;
+	margin-bottom: 5px;
+}
+
+footer img {
+	height: 15px;
+	mix-blend-mode: multiply;
+}
+
+footer span {
+	margin-bottom: 50%;
+	line-height: 15px;
+	font-size: 20px;
+}
+
+footer td {
+	width: 300px;
+	padding-right: 30px;
+	font-size: 15px;
+	padding-top: 5px;
+}
+
+footer a {
+	text-decoration: none;
+	text-decoration: italic;
+	color: rgb(150,0,0);
+}
