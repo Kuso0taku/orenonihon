@@ -49,6 +49,7 @@ body {
 
 .n1{
 	background: url(img/background_home.jpg) no-repeat;
+	background-size: cover;
 }
 
 .my-jp{
