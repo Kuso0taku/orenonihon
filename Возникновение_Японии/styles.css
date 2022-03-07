@@ -45,6 +45,8 @@ body {
 	/*background: url(img/background_statya.jpg) #3E4B8F no-repeat;*/
 	background-size: contain;
 	font-weight: 98%;
+	padding-left: 25%;
+	padding-right: 25%;
 }
 
 nav {
